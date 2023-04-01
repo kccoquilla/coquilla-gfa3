@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">     
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="text-center mt-5">A Tour Around the Philippines</h1>
+    <p class="text-center mx-auto mb-4" id="intro">After a long year of working hard, you finally found the time to visit <span class="text-danger">ALL</span> the tourist spots in the Philippines. Ranging from Luzon, Visayas, to Mindanao, you create an itinerary fit enough to ensure that you will be able to visit these places and enjoy. The number of places in each major island is presented below:</p>
+    <div class="randomNum">
+        <div class="card" id="luz">
+            <div class="card-header" id="hdr-luz">Luzon</div>
+            <div class="card-text my-5" id="num1">0</div>
+        </div>
+        <div class="card" id="vis">
+            <div class="card-header" id="hdr-vis">Visayas</div>
+            <div class="card-text my-5" id="num2">0</div>
+        </div>
+        <div class="card" id="mind">
+            <div class="card-header" id="hdr-mind">Mindanao</div>
+            <div class="card-text my-5" id="num3">0</div></div>
+    </div>
+
+    <p class="text-center mt-4" id="result">The major island/s with the most number of places to be visited: </p>
+    <p class="text-center" id="letter">The first letter of the place that you want to visit the most is </p>
+    <p class="text-center"><span id="hr">It will take you some time</span> <span id="mins">to get to your first destination</span>.</p>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>    
+</body>
+</html>

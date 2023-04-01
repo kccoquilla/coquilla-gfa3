@@ -1,0 +1,53 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background: url(flagpole.png) no-repeat -100px 150px; 
+    /*Picture Source: https://thumbs.dreamstime.com/b/philippines-flag-flagpole-white-background-d-illustration-isolated-181262378.jpg*/
+}
+h1{
+    font-weight: bold;
+}
+#intro{
+    width: 75%;
+    font-size: 18px;
+}
+
+.randomNum{
+    text-align: center;
+}
+.card{
+    width: 16%;
+    margin-right: 55px;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 2px 2px 7px rgb(212, 208, 208);
+}
+.card-header{
+    font-size: 30px;
+    color: white;
+}
+.card-text{
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#luz{
+    display: inline-block;
+}
+#hdr-luz{
+    background-color: #ce1126;
+}
+
+#vis{
+    display: inline-block;
+    
+}
+#hdr-vis{
+    background-color: #0038a8;
+}
+
+#mind{
+    display: inline-block;
+}
+#hdr-mind{
+    background-color: #fcd115;
+}
